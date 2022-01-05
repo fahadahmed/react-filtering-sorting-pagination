@@ -2,3 +2,15 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+.product {
+  padding: 10px;
+  background: #efefef;
+}
