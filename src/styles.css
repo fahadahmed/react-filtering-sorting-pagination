@@ -14,3 +14,10 @@
   padding: 10px;
   background: #efefef;
 }
+
+.menu {
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  padding: 20px;
+}
